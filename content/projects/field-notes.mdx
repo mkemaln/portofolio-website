@@ -1,0 +1,30 @@
+---
+title: Field Notes
+order: 4
+tags: [SVELTE, SUPABASE, PWA]
+summary: Offline-first note taking for field teams, syncing reliably on poor connections.
+href: https://example.com/field-notes
+---
+
+Offline-first note taking for field teams, syncing reliably on poor
+connections.
+
+## Problem
+
+Field teams work in places with no usable connection, then lose hours
+reconciling notes written in three different apps.
+
+## Approach
+
+- Local-first store with a conflict-free merge on reconnect.
+- Progressive web app so it installs without an app store.
+- Photo and voice capture that queue and upload opportunistically.
+
+## Result
+
+- **Zero data loss** across a six-month pilot with four field teams.
+- Sync backlog clears within 90 seconds of regaining signal.
+
+## Stack
+
+`Svelte` `Supabase` `PWA`
