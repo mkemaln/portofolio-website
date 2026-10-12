@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Sidebar } from "@/components/sidebar";
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
   description: site.headline,
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   const year = await getCopyrightYear();
 
@@ -43,8 +49,8 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
               The sidebar is fixed, so the content column is offset by its
               width on large screens. This is the only scrollable region.
             */}
-            <main className="min-h-screen pt-[57px] lg:pl-[400px] lg:pt-0">
-              <div className="scroll-region flex min-h-[calc(100vh-57px)] flex-col gap-[80px] px-[24px] py-[48px] sm:gap-[110px] lg:min-h-screen lg:px-[72px] lg:py-[72px]">
+            <main className="min-h-screen pt-[var(--header-height)] lg:pl-[400px] lg:pt-0">
+              <div className="scroll-region flex min-h-[calc(100vh-var(--header-height))] flex-col gap-[80px] px-[24px] py-[48px] sm:gap-[110px] lg:min-h-screen lg:px-[72px] lg:py-[72px]">
                 {children}
               </div>
             </main>

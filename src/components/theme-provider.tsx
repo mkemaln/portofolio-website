@@ -4,7 +4,6 @@ import {
   createContext,
   useCallback,
   useContext,
-  useEffect,
   useMemo,
   useSyncExternalStore,
 } from "react";
@@ -63,10 +62,6 @@ function readTheme(): Theme {
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const theme = useSyncExternalStore(subscribe, readTheme, () => "light" as Theme);
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-  }, [theme]);
 
   const setTheme = useCallback((next: Theme) => {
     document.documentElement.setAttribute("data-theme", next);

@@ -1,6 +1,7 @@
 "use client";
 
 import { useTheme } from "@/components/theme-provider";
+import { SunIcon, MoonIcon } from "@/components/icons";
 
 const options = [
   { value: "light", label: "LIGHT" },
@@ -36,5 +37,24 @@ export function ThemeToggle() {
         );
       })}
     </div>
+  );
+}
+
+export function ThemeToggleCompact() {
+  const { theme, toggleTheme } = useTheme();
+
+  return (
+    <button
+      type="button"
+      onClick={toggleTheme}
+      aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+      className="flex touch-manipulation items-center justify-center rounded-[6px] border border-line px-[12px] py-[13px] text-muted transition-colors hover:text-ink"
+    >
+      {theme === "dark" ? (
+        <SunIcon className="h-[18px] w-[18px]" />
+      ) : (
+        <MoonIcon className="h-[18px] w-[18px]" />
+      )}
+    </button>
   );
 }

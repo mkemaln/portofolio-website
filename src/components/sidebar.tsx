@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { UserIcon, icons } from "@/components/icons";
+import { ThemeToggle, ThemeToggleCompact } from "@/components/theme-toggle";
+import { UserIcon, MenuIcon, CloseIcon, icons } from "@/components/icons";
 import { nav, site, socials } from "@/lib/site";
 
 function NavLink({
@@ -37,10 +37,12 @@ function SidebarBody({
   pathname,
   year,
   onNavigate,
+  showThemeToggle = true,
 }: {
   pathname: string;
   year: number;
   onNavigate?: () => void;
+  showThemeToggle?: boolean;
 }) {
   return (
     <>
@@ -88,7 +90,7 @@ function SidebarBody({
       </div>
 
       <div className="flex w-full flex-col gap-[clamp(10px,1.8vh,18px)]">
-        <ThemeToggle />
+        {showThemeToggle && <ThemeToggle />}
 
         <div className="flex w-full items-center gap-[16px]">
           {socials.map((social) => {
@@ -128,30 +130,39 @@ export function Sidebar({ year }: { year: number }) {
       </aside>
 
       {/* Mobile: a compact top bar plus an overlay drawer. */}
-      <header className="fixed inset-x-0 top-0 z-40 flex items-center justify-between border-b border-line bg-surface px-[20px] py-[14px] lg:hidden">
-        <Link href="/" className="text-[15px] font-bold tracking-[1px] text-ink">
-          {site.name}
-        </Link>
-        <button
-          type="button"
-          onClick={() => setOpen((value) => !value)}
-          aria-expanded={open}
-          aria-controls="mobile-nav"
-          className="rounded-[4px] border border-line px-[12px] py-[6px] text-[11px] tracking-[1px] text-muted"
-        >
-          {open ? "CLOSE" : "MENU"}
-        </button>
+      <header className="fixed inset-x-0 top-0 z-40 flex items-center justify-between border-b border-line bg-surface px-[20px] pb-[14px] pt-[calc(14px+env(safe-area-inset-top,0px))] lg:hidden">
+        <div className="flex items-center gap-[10px]">
+          <button
+            type="button"
+            onClick={() => setOpen((value) => !value)}
+            aria-expanded={open}
+            aria-controls="mobile-nav"
+            aria-label={open ? "Close menu" : "Open menu"}
+            className="flex touch-manipulation items-center justify-center rounded-[6px] border border-line px-[12px] py-[13px] text-muted transition-colors hover:text-ink"
+          >
+            {open ? (
+              <CloseIcon className="h-[18px] w-[18px]" />
+            ) : (
+              <MenuIcon className="h-[18px] w-[18px]" />
+            )}
+          </button>
+          <Link href="/" className="text-[15px] font-bold tracking-[1px] text-ink">
+            {site.name}
+          </Link>
+        </div>
+        <ThemeToggleCompact />
       </header>
 
       {open && (
         <div
           id="mobile-nav"
-          className="fixed inset-0 top-[57px] z-30 flex flex-col justify-between gap-[40px] overflow-y-auto bg-bg px-[24px] py-[32px] lg:hidden"
+          className="fixed inset-0 top-[var(--header-height)] z-30 flex flex-col justify-between gap-[40px] overflow-y-auto bg-bg px-[24px] pt-[32px] pb-[calc(32px+env(safe-area-inset-bottom,0px))] lg:hidden"
         >
           <SidebarBody
             pathname={pathname}
             year={year}
             onNavigate={() => setOpen(false)}
+            showThemeToggle={false}
           />
         </div>
       )}

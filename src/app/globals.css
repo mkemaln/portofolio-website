@@ -52,6 +52,10 @@
   --font-mono: var(--font-jetbrains-mono);
 }
 
+:root {
+  --header-height: calc(72px + env(safe-area-inset-top, 0px));
+}
+
 html {
   color-scheme: light;
 }
