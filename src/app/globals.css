@@ -1,0 +1,230 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Design tokens
+   Two token sets, selected by a `data-theme` attribute on <html>.
+   Values are lifted straight from mockup/mockup.html (light) and
+   mockup/mockup-dark.html (dark).
+   ------------------------------------------------------------------ */
+
+:root,
+[data-theme="light"] {
+  --bg: #f4f4f4;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #eaeaea;
+  --surface-inverse: #111111;
+  --text: #111111;
+  --text-muted: #5a5a5a;
+  --text-subtle: #9a9a9a;
+  --border: #e4e4e4;
+  --icon: #9a9a9a;
+  --on-inverse: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg: #0b0b0b;
+  --surface: #111111;
+  --surface-raised: #151515;
+  --surface-sunken: #1c1c1c;
+  --surface-inverse: #f2f2f2;
+  --text: #f2f2f2;
+  --text-muted: #a0a0a0;
+  --text-subtle: #6e6e6e;
+  --border: #252525;
+  --icon: #6e6e6e;
+  --on-inverse: #0b0b0b;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-inverse: var(--surface-inverse);
+  --color-ink: var(--text);
+  --color-muted: var(--text-muted);
+  --color-subtle: var(--text-subtle);
+  --color-line: var(--border);
+  --color-on-inverse: var(--on-inverse);
+
+  --font-sans: var(--font-jetbrains-mono);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+html {
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-jetbrains-mono), ui-monospace, monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--surface-inverse);
+  color: var(--on-inverse);
+}
+
+/* Keep long unbroken strings (emails, URLs) inside the content column. */
+.break-anywhere {
+  overflow-wrap: anywhere;
+}
+
+/* Slim, theme-aware scrollbar for the scrollable content region. */
+.scroll-region {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.scroll-region::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-region::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 999px;
+}
+
+.scroll-region::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Prose styles for MDX-rendered project / experience bodies. */
+.prose-porto {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.prose-porto > * + * {
+  margin-top: 16px;
+}
+
+.prose-porto h2 {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+
+.prose-porto h2::before {
+  content: "// ";
+  color: var(--text-subtle);
+  font-weight: 400;
+}
+
+.prose-porto h3 {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.prose-porto strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.prose-porto a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--border);
+}
+
+.prose-porto a:hover {
+  text-decoration-color: currentColor;
+}
+
+.prose-porto ul,
+.prose-porto ol {
+  padding-left: 20px;
+}
+
+.prose-porto ul {
+  list-style: none;
+}
+
+.prose-porto ul > li {
+  position: relative;
+}
+
+.prose-porto ul > li::before {
+  content: "—";
+  position: absolute;
+  left: -20px;
+  color: var(--text-subtle);
+}
+
+.prose-porto ol {
+  list-style: decimal;
+}
+
+.prose-porto li + li {
+  margin-top: 6px;
+}
+
+.prose-porto code {
+  font-size: 12px;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: var(--surface-raised);
+  color: var(--text);
+}
+
+.prose-porto pre {
+  overflow-x: auto;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background-color: var(--surface-raised);
+}
+
+.prose-porto pre code {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.prose-porto blockquote {
+  border-left: 2px solid var(--border);
+  padding-left: 16px;
+  color: var(--text-subtle);
+}
+
+.prose-porto hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 32px 0;
+}
+
+.prose-porto table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.prose-porto th,
+.prose-porto td {
+  border-bottom: 1px solid var(--border);
+  padding: 8px 12px 8px 0;
+  text-align: left;
+}
+
+.prose-porto th {
+  color: var(--text);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

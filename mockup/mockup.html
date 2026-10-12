@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      tailwind = { config: { corePlugins: { preflight: false } } };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono%3Awght%40100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *, ::before, ::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+    </style>
+
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: #F4F4F4">
+    <div
+      data-pencil-name="Portfolio — Light"
+      class="box-border w-[1440px] h-[2224px] flex flex-row gap-0 justify-start items-start bg-[#F4F4F4] overflow-hidden"
+    >
+      <div
+        data-pencil-name="Sidebar"
+        class="box-border w-[400px] shrink-0 h-full flex flex-col gap-[40px] p-[56px_44px] justify-between items-start bg-[#FFFFFF]"
+      >
+        <div
+          data-pencil-name="Sidebar Top"
+          class="box-border w-full h-fit shrink-0 flex flex-col gap-[34px] justify-start items-start"
+        >
+          <div
+            data-pencil-name="Profile Photo"
+            class="box-border w-[248px] h-[248px] shrink-0 flex flex-col gap-[10px] justify-center items-center bg-[#EAEAEA] [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[6px]"
+          >
+            <svg
+              data-pencil-name="Photo Icon"
+              data-icon-name="user-round"
+              data-icon-set="lucide"
+              viewBox="0 0 13.99993896484375 14"
+              preserveAspectRatio="xMidYMid meet"
+              xmlns="http://www.w3.org/2000/svg"
+              class="box-border w-[44px] h-[44px] shrink-0"
+            >
+              <path
+                d="M6.53857 1.20313q-1.17578 0.15381-2.0166 0.99462-0.51953 0.51953-0.78613 1.19287-0.26318 0.66992-0.23584 1.41163 0.02734 0.7417 0.35547 1.40136 0.33154 0.65625 0.91943 1.15869l0.09571 0.08545-0.19483 0.09912q-0.89551 0.44775-1.58252 1.20313-0.68359 0.75537-1.02197 1.69531-0.25293 0.68359-0.30762 1.39795-0.04102 0.49219 0.04102 0.65967 0.12646 0.2666 0.42041 0.31445 0.29395 0.04785 0.50586-0.14697 0.10938-0.11279 0.14355-0.2085 0.0376-0.09912 0.05127-0.35205 0.01367-0.3623 0.06152-0.6289 0.05127-0.2666 0.16407-0.57422 0.37598-1.09375 1.29199-1.83545 0.91943-0.7417 2.08154-0.86817 0.71436-0.08203 1.41846 0.08545 0.70752 0.16748 1.30908 0.56055 0.19824 0.12646 0.30078 0.21875 0.10596 0.08887 0.28711 0.25635 0.32471 0.32129 0.56738 0.68701 0.24609 0.36231 0.41358 0.80322 0.16748 0.44092 0.22558 0.875 0.01367 0.14014 0.02735 0.42041 0.01367 0.25293 0.04785 0.35205 0.0376 0.0957 0.14697 0.2085 0.21191 0.19482 0.50586 0.14697 0.29395-0.04785 0.42041-0.31445 0.02734-0.08545 0.03418-0.1333 0.00684-0.05127 0.00684-0.28711 0-0.78613-0.28711-1.58936-0.28711-0.80664-0.80664-1.46289-0.36231-0.4751-0.86817-0.88183-0.50244-0.40674-1.00488-0.62891l-0.14014-0.07178 0.09571-0.08545q0.71436-0.60156 1.03564-1.42529 0.36572-0.95361 0.1709-1.97558-0.19824-0.98096-0.90576-1.71582-0.70752-0.73486-1.68506-0.97071-0.29395-0.07178-0.65283-0.09228-0.35547-0.02051-0.64942 0.0205z m0.79639 1.1621q0.646 0.08545 1.15527 0.51954 0.5127 0.43408 0.7212 1.06298 0.12646 0.36572 0.11962 0.7793-0.00684 0.41016-0.14697 0.74854-0.22559 0.60156-0.72119 1.00146-0.49561 0.39648-1.12793 0.49561-0.48877 0.08203-0.99463-0.07178-0.50244-0.15381-0.86474-0.4751-0.58789-0.51611-0.75879-1.2749-0.02734-0.15381-0.03418-0.41699-0.00684-0.2666 0.0205-0.42041 0.11279-0.72803 0.60157-1.24756 0.32471-0.33496 0.7417-0.53321 0.59131-0.26318 1.28857-0.16748z"
+                fill="#9A9A9A"
+              ></path>
+            </svg>
+            <div
+              data-pencil-name="Photo Hint"
+              class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1.5px] text-left [white-space:nowrap]"
+            >
+              // YOUR PHOTO
+            </div>
+          </div>
+          <div
+            data-pencil-name="Identity"
+            class="box-border w-full h-fit shrink-0 flex flex-col gap-[6px] justify-start items-start"
+          >
+            <div
+              data-pencil-name="Side Name"
+              class="text-[20px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold tracking-[1px] text-left [white-space:nowrap]"
+            >
+              YOUR NAME
+            </div>
+            <div
+              data-pencil-name="Side Role"
+              class="text-[13px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+            >
+              Software Engineer
+            </div>
+            <div
+              data-pencil-name="Side Location"
+              class="text-[12px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+            >
+              Jakarta, ID · GMT+7
+            </div>
+          </div>
+          <div
+            data-pencil-name="Navigation"
+            class="box-border w-full h-fit shrink-0 flex flex-col gap-[10px] justify-start items-start"
+          >
+            <div
+              data-pencil-name="Nav Label"
+              class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1.5px] text-left [white-space:nowrap]"
+            >
+              // NAVIGATION
+            </div>
+            <div
+              data-pencil-name="Nav List"
+              class="box-border w-full h-fit shrink-0 flex flex-col gap-[2px] justify-start items-start"
+            >
+              <div
+                data-pencil-name="Nav Item home"
+                class="box-border w-full h-fit shrink-0 flex flex-row gap-[2px] p-[11px_16px] justify-start items-center bg-[#111111] rounded-[4px]"
+              >
+                <div
+                  data-pencil-name="Nav Slash home"
+                  class="text-[22px]/[normal] box-border text-[#FFFFFF] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  /
+                </div>
+                <div
+                  data-pencil-name="Nav Text home"
+                  class="text-[22px]/[normal] box-border text-[#FFFFFF] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  home
+                </div>
+              </div>
+              <div
+                data-pencil-name="Nav Item experience"
+                class="box-border w-full h-fit shrink-0 flex flex-row gap-[2px] p-[11px_16px] justify-start items-center rounded-[4px]"
+              >
+                <div
+                  data-pencil-name="Nav Slash experience"
+                  class="text-[22px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  /
+                </div>
+                <div
+                  data-pencil-name="Nav Text experience"
+                  class="text-[22px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  experience
+                </div>
+              </div>
+              <div
+                data-pencil-name="Nav Item project"
+                class="box-border w-full h-fit shrink-0 flex flex-row gap-[2px] p-[11px_16px] justify-start items-center rounded-[4px]"
+              >
+                <div
+                  data-pencil-name="Nav Slash project"
+                  class="text-[22px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  /
+                </div>
+                <div
+                  data-pencil-name="Nav Text project"
+                  class="text-[22px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  project
+                </div>
+              </div>
+              <div
+                data-pencil-name="Nav Item contact"
+                class="box-border w-full h-fit shrink-0 flex flex-row gap-[2px] p-[11px_16px] justify-start items-center rounded-[4px]"
+              >
+                <div
+                  data-pencil-name="Nav Slash contact"
+                  class="text-[22px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  /
+                </div>
+                <div
+                  data-pencil-name="Nav Text contact"
+                  class="text-[22px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+                >
+                  contact
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-pencil-name="Sidebar Footer"
+          class="box-border w-full h-fit shrink-0 flex flex-col gap-[18px] justify-start items-start"
+        >
+          <div
+            data-pencil-name="Theme Toggle"
+            class="box-border w-full h-fit shrink-0 flex flex-row gap-0 p-[4px] justify-start items-center [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[6px]"
+          >
+            <div
+              data-pencil-name="Light Option"
+              class="box-border [flex:1_1_0] h-fit flex flex-row gap-0 p-[8px_0px] justify-center items-start bg-[#111111] rounded-[4px]"
+            >
+              <div
+                data-pencil-name="Light Label"
+                class="text-[11px]/[normal] box-border text-[#FFFFFF] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+              >
+                LIGHT
+              </div>
+            </div>
+            <div
+              data-pencil-name="Dark Option"
+              class="box-border [flex:1_1_0] h-fit flex flex-row gap-0 p-[8px_0px] justify-center items-start rounded-[4px]"
+            >
+              <div
+                data-pencil-name="Dark Label"
+                class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+              >
+                DARK
+              </div>
+            </div>
+          </div>
+          <div
+            data-pencil-name="Socials"
+            class="box-border w-full h-fit shrink-0 flex flex-row gap-[16px] justify-start items-center"
+          >
+            <div
+              data-pencil-name="Social GITHUB"
+              class="box-border w-fit shrink-0 h-fit flex flex-row gap-[8px] justify-start items-center"
+            >
+              <svg
+                data-pencil-name="Icon GITHUB"
+                data-icon-name="github"
+                data-icon-set="lucide"
+                viewBox="0 0 13.99993896484375 14"
+                preserveAspectRatio="xMidYMid meet"
+                xmlns="http://www.w3.org/2000/svg"
+                class="box-border w-[16px] shrink-0 h-[16px]"
+              >
+                <path
+                  d="M2.82666 0.60156q-0.12305 0.01367-0.24268 0.09912-0.11963 0.08203-0.17431 0.19483-0.08545 0.15381-0.15723 0.6289-0.05469 0.29395-0.04785 0.71436 0.00684 0.42041 0.06494 0.72803l0.02735 0.12646-0.07178 0.12647q-0.30762 0.54688-0.43408 1.23388-0.02734 0.13672-0.03418 0.54346-0.00684 0.40674 0.00683 0.61865 0.12646 1.34326 1.07666 2.26612 0.59131 0.54688 1.33301 0.84082 0.15381 0.05469 0.38281 0.12646 0.23242 0.06836 0.27344 0.06836 0.04102 0 0.04102 0.03076 0 0.02734-0.04102 0.12305-0.05469 0.19824-0.11279 0.48535-0.05469 0.28369-0.05469 0.45459l0 0.0957-0.14014 0.04444q-0.33496 0.0957-0.65967 0.08203-0.18115-0.01367-0.29394-0.04102-0.10938-0.02734-0.24951-0.0957-0.14014-0.07178-0.2666-0.17773-0.12646-0.10596-0.3794-0.3418-0.51611-0.47852-0.72803-0.60156-0.37598-0.21191-0.74169-0.21192-0.11279 0-0.16065 0.00684-0.04785 0.00684-0.11963 0.03418-0.28027 0.12646-0.32812 0.42041-0.04785 0.29395 0.16064 0.51953 0.12646 0.12646 0.3794 0.16748 0.15381 0.02734 0.24267 0.08545 0.09229 0.05469 0.44092 0.37598 0.31104 0.29394 0.43408 0.3999 0.12646 0.10596 0.28027 0.20166 0.42041 0.28027 0.89893 0.37939 0.19482 0.04102 0.49561 0.04102 0.30078 0 0.52636-0.02735l0.2085-0.04101q0.01367 0 0.01367 0.81006 0 0.57422 0 0.70752 0 0.1333 0.03418 0.21875 0.0376 0.08203 0.11963 0.16748 0.08545 0.08203 0.18799 0.1333 0.10596 0.04785 0.23242 0.04785 0.12646 0 0.229-0.04785 0.10596-0.05127 0.18799-0.1333 0.08545-0.08545 0.11963-0.16748 0.0376-0.08545 0.0376-0.28028l0-2.68994q0.01367-0.64258 0.42041-1.20312 0.08203-0.12646 0.10937-0.18799 0.03076-0.06494 0.05127-0.14697 0.02051-0.08545 0-0.18799-0.02051-0.10596-0.0581-0.17432-0.03418-0.07178-0.1128-0.14697-0.0752-0.07861-0.16748-0.11963-0.08887-0.04443-0.32812-0.05811-0.40332-0.01367-0.72803-0.09912-0.72803-0.18115-1.24414-0.64258-0.30762-0.25293-0.51953-0.60839-0.2085-0.35889-0.28027-0.74854-0.02734-0.12646-0.04102-0.44775-0.01367-0.32471 0-0.49219 0.04102-0.62891 0.42041-1.20313 0.12646-0.19482 0.14697-0.31445 0.02051-0.11963-0.03418-0.33154-0.08545-0.37598-0.08544-0.78272 0-0.2666 0.01367-0.2666l0.18115 0.09912q0.23926 0.12646 0.72803 0.46143 0.19824 0.12646 0.36572 0.14014 0.06836-0.01367 0.32129-0.05469 0.96729-0.16748 2.0166-0.16748 1.04932 0 2.0166 0.16748 0.25293 0.05469 0.32129 0.05469 0.16748-0.01367 0.34863-0.14014 0.49219-0.32129 0.70069-0.44092 0.21191-0.11963 0.22558-0.11279 0.01367 0.00684 0.01367 0.22558 0 0.21533-0.0205 0.39307-0.02051 0.17432-0.06494 0.39307-0.04102 0.21533-0.04102 0.27002 0 0.15381 0.15381 0.40673 0.30762 0.4751 0.40674 0.99463 0.01367 0.14014 0.0205 0.46827 0.00684 0.32813-0.0205 0.4956-0.14014 1.12109-1.1211 1.77734-0.42041 0.2666-0.95019 0.40674-0.32471 0.08545-0.72803 0.09912-0.15381 0.01367-0.21875 0.02735-0.06152 0.01367-0.11963 0.04101-0.26318 0.12646-0.33496 0.43409-0.04102 0.21191 0.12647 0.44775 0.37598 0.54688 0.44775 1.03906 0.01367 0.12305 0.01367 1.60987l0 1.30224q0 0.2085 0.03418 0.29395 0.0376 0.08203 0.11963 0.16748 0.08545 0.08203 0.18799 0.1333 0.10596 0.04785 0.23242 0.04785 0.12646 0 0.229-0.04785 0.10596-0.05127 0.18799-0.1333 0.08545-0.08545 0.1128-0.16748 0.03076-0.08545 0.04443-0.31104l0.01367-1.32959q0-1.52441-0.01367-1.67822-0.05469-0.33496-0.15381-0.646-0.04102-0.10938-0.04102-0.13672 0-0.03076 0.04102-0.03076 0.04102 0 0.27002-0.07519 0.23242-0.07861 0.38623-0.1333 0.57422-0.22559 1.05615-0.6084 0.48535-0.38623 0.79297-0.875 0.16748-0.25293 0.30078-0.57422 0.1333-0.32471 0.18799-0.63233 0.09912-0.43408 0.09229-0.96386-0.00684-0.5332-0.10596-0.90918-0.14014-0.50586-0.36231-0.92627l-0.08544-0.14014 0.02734-0.16748q0.11279-0.67334 0.01709-1.34326-0.05811-0.51953-0.15039-0.68701-0.08887-0.16748-0.28369-0.2666-0.3794-0.16748-1.26123 0.28027-0.30762 0.14014-0.65967 0.37939l-0.2085 0.14014-0.18115-0.02734q-0.92627-0.15381-1.98926-0.15381-1.06299 0-2.07129 0.15381l-0.14013 0.02734-0.14014-0.09912q-0.51953-0.3623-1.03223-0.56396-0.50928-0.20508-0.80322-0.16407z"
+                  fill="#5A5A5A"
+                ></path>
+              </svg>
+              <div
+                data-pencil-name="Social Text GITHUB"
+                class="text-[11px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+              >
+                GITHUB
+              </div>
+            </div>
+            <div
+              data-pencil-name="Social LINKEDIN"
+              class="box-border w-fit shrink-0 h-fit flex flex-row gap-[8px] justify-start items-center"
+            >
+              <svg
+                data-pencil-name="Icon LINKEDIN"
+                data-icon-name="linkedin"
+                data-icon-set="lucide"
+                viewBox="0 0 13.99993896484375 14"
+                preserveAspectRatio="xMidYMid meet"
+                xmlns="http://www.w3.org/2000/svg"
+                class="box-border w-[16px] shrink-0 h-[16px]"
+              >
+                <path
+                  d="M2.15674 0.60156q-0.51953 0.04102-0.93311 0.38623-0.41016 0.3418-0.56396 0.86133-0.18457 0.64258 0.10937 1.25781 0.15381 0.32471 0.44092 0.56397 0.28711 0.23584 0.65283 0.34863 0.11279 0.02734 0.18116 0.03418 0.06836 0.00684 0.28027 0.02051 0.25293 0 0.3623-0.02051 0.11279-0.02051 0.32471-0.10596 0.30762-0.12646 0.55713-0.37597 0.25293-0.25293 0.37939-0.56055 0.08545-0.21191 0.10596-0.32129 0.02051-0.11279 0.02051-0.36572-0.01367-0.2085-0.02051-0.27686-0.00684-0.07178-0.03418-0.18457-0.11279-0.36572-0.35205-0.64599-0.23584-0.28027-0.56055-0.44776-0.29395-0.14014-0.56054-0.16748l-0.18116-0.01367q-0.05469 0-0.20849 0.01367z m0.42041 1.20313q0.33496 0.15381 0.33496 0.5332 0 0.2666-0.21191 0.44092-0.2085 0.17432-0.46143 0.11963-0.18115-0.02734-0.30762-0.15381-0.16748-0.15381-0.17431-0.38281-0.00684-0.23242 0.14697-0.417 0.11279-0.14014 0.30762-0.17431 0.19824-0.03418 0.36572 0.03418z m6.49414 2.29687q-0.57422 0.02734-1.1416 0.23926-0.56738 0.2085-1.05615 0.56055-0.15381 0.12305-0.37256 0.33496-0.21533 0.2085-0.3418 0.34863-0.56055 0.70068-0.78272 1.55518l-0.01367 0.05468q-0.05811 0.23926-0.07177 0.3794-0.02734 0.19482-0.02735 0.67334l0 4.15625 0.04102 0.09912q0.11279 0.2085 0.3247 0.29395 0.06836 0.02734 0.24952 0.02734l1.12109 0 1.12109 0q0.18115 0 0.24952-0.02734 0.21191-0.08545 0.3247-0.29395l0.04102-0.09912 0.02734-4.38184 0.02735-0.08545q0.07178-0.15381 0.21191-0.24951 0.14014-0.09912 0.34863-0.09912 0.16748 0 0.30078 0.09229 0.1333 0.08887 0.21875 0.25634l0.04102 0.09912 0.01367 4.38184 0.04102 0.08545q0.04443 0.06836 0.12646 0.15381 0.08545 0.08203 0.15381 0.12646l0.08545 0.04102 2.46435 0q0.18115 0 0.25635-0.03418 0.07861-0.0376 0.16748-0.11963 0.09229-0.08545 0.15039-0.18115l0.04102-0.1128 0-4.10156q-0.01367-0.47852-0.02734-0.67334-0.01367-0.14014-0.08545-0.37597l-0.01367-0.05811q-0.19482-0.81006-0.70753-1.47656-0.50928-0.6665-1.23046-1.07666-0.72119-0.41357-1.54834-0.49903-0.33496-0.04102-0.72803-0.01367z m-8.09033 0.60156q-0.23926 0.08545-0.35205 0.33838l-0.04102 0.08204 0 7.25292 0.04102 0.1128q0.05811 0.0957 0.14697 0.18115 0.09229 0.08203 0.16748 0.11963 0.07861 0.03418 0.25977 0.03418l2.46435 0 0.08545-0.04102q0.06836-0.04443 0.15039-0.12646 0.08545-0.08545 0.12988-0.15381l0.04102-0.08545 0-7.33496-0.04102-0.08545q-0.09912-0.16748-0.28027-0.2666l-0.08545-0.05469-1.31592 0q-1.31592 0-1.3706 0.02735z m8.79101 0.5879q0.46143 0.05811 0.875 0.27685 0.41357 0.21533 0.74854 0.53662 0.62891 0.64258 0.81347 1.58252 0.02734 0.15381 0.04102 2.07129l0 1.91748-1.17578 0-0.01367-3.59912q0-0.26318-0.02735-0.34863-0.25293-0.81348-0.96728-1.14844-0.16748-0.08203-0.31446-0.10938-0.14697-0.03076-0.37255-0.03759-0.22217-0.00684-0.37598 0.02051-0.57422 0.11279-0.95361 0.5332-0.37598 0.42041-0.44776 0.99463-0.02734 0.15381-0.02734 1.91748l0 1.77734-1.14844 0 0-1.86279q0-1.49707 0.01367-1.81836 0.01367-0.32129 0.08545-0.58789 0.18115-0.67334 0.65625-1.19629 0.47852-0.52637 1.13477-0.7793 0.34863-0.12646 0.81347-0.16748 0.08203-0.01367 0.31104 0 0.23242 0.01367 0.33154 0.02735z m-6.84619 3.45898l0 2.92578-1.17578 0 0-5.85156 1.17578 0 0 2.92578z"
+                  fill="#5A5A5A"
+                ></path>
+              </svg>
+              <div
+                data-pencil-name="Social Text LINKEDIN"
+                class="text-[11px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+              >
+                LINKEDIN
+              </div>
+            </div>
+            <div
+              data-pencil-name="Social EMAIL"
+              class="box-border w-fit shrink-0 h-fit flex flex-row gap-[8px] justify-start items-center"
+            >
+              <svg
+                data-pencil-name="Icon EMAIL"
+                data-icon-name="mail"
+                data-icon-set="lucide"
+                viewBox="0 0 13.99993896484375 14"
+                preserveAspectRatio="xMidYMid meet"
+                xmlns="http://www.w3.org/2000/svg"
+                class="box-border w-[16px] shrink-0 h-[16px]"
+              >
+                <path
+                  d="M2.05762 1.77734q-0.28027 0.04102-0.53321 0.16748-0.34863 0.19824-0.58789 0.50586-0.23584 0.30762-0.32129 0.70069-0.01367 0.10938-0.02734 0.66992l0 3.17871 0 3.17871q0.01367 0.56055 0.02734 0.66992 0.11279 0.5332 0.50245 0.90577 0.39307 0.36914 0.92627 0.46826 0.16748 0.02734 4.95605 0.02734 4.78857 0 4.95605-0.02734 0.5332-0.09912 0.92286-0.46826 0.39307-0.37256 0.50586-0.90577 0.01367-0.10938 0.02734-0.66992l0-3.17871 0-3.17871q-0.01367-0.56055-0.02734-0.66992-0.12647-0.54688-0.53321-0.92285-0.40674-0.37939-0.95019-0.46485-0.1709-0.01367-4.93897-0.01367-4.76465 0-4.90478 0.02734z m9.81298 1.17579q0.09912 0.04443 0.18116 0.12304 0.08545 0.0752 0.12646 0.16065 0.04443 0.08203 0.05127 0.12988 0.00684 0.04785 0.00684 0.18799l0 0.21191-2.46436 1.58252q-2.46436 1.56543-2.53613 1.60303-0.06836 0.03418-0.16748 0.03418l-0.02734 0.01367q-0.0957 0.01367-0.2085-0.04102-0.15381-0.07178-0.65967-0.37939l-4.40918-2.81299 0-0.21191q0-0.14014 0.00684-0.18799 0.00684-0.04785 0.04101-0.12305 0.0376-0.07861 0.12647-0.16064 0.09229-0.08545 0.16748-0.1128 0.07861-0.03076 0.70752-0.04443l4.18701 0 4.18701 0q0.61523 0 0.68359 0.02735z m-5.63964 5.02783q0.22217 0.10938 0.46142 0.15381 0.09912 0.02734 0.30762 0.02734 0.2085 0 0.30762-0.02734 0.30762-0.05811 0.54687-0.19825 0.14014-0.08203 2.26612-1.42529l2.12939-1.36035-0.01367 5.50293-0.04102 0.09912q-0.11279 0.2085-0.3247 0.29395l-0.09571 0.02734-9.5498 0-0.09571-0.02734q-0.21191-0.08545-0.3247-0.29395l-0.04102-0.09912-0.01367-5.50293 2.17041 1.37402q2.17041 1.38428 2.31055 1.45606z"
+                  fill="#5A5A5A"
+                ></path>
+              </svg>
+              <div
+                data-pencil-name="Social Text EMAIL"
+                class="text-[11px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+              >
+                EMAIL
+              </div>
+            </div>
+          </div>
+          <div
+            data-pencil-name="Copyright"
+            class="text-[10px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+          >
+            © 2025 — ALL RIGHTS RESERVED
+          </div>
+        </div>
+      </div>
+      <div
+        data-pencil-name="Content"
+        class="box-border [flex:1_1_0] h-fit flex flex-col gap-[110px] p-[72px] justify-start items-start bg-[#F4F4F4]"
+      >
+        <div
+          data-pencil-name="Hero"
+          class="box-border w-full h-fit shrink-0 flex flex-col gap-[26px] justify-start items-start"
+        >
+          <div
+            data-pencil-name="Status"
+            class="box-border w-fit h-fit shrink-0 flex flex-row gap-[10px] justify-start items-center"
+          >
+            <div
+              data-pencil-name="Status Dot"
+              class="box-border w-[8px] shrink-0 h-[8px] bg-[#111111] rounded-full"
+            ></div>
+            <div
+              data-pencil-name="Status Text"
+              class="text-[11px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[2px] text-left [white-space:nowrap]"
+            >
+              AVAILABLE FOR NEW PROJECTS
+            </div>
+          </div>
+          <div
+            data-pencil-name="Hero Tag"
+            class="text-[12px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[2px] text-left [white-space:nowrap]"
+          >
+            // PORTFOLIO 2025
+          </div>
+          <div
+            data-pencil-name="Hero Name"
+            class="text-[84px]/[84px] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold tracking-[-3px] text-left"
+          >
+            YOUR NAME
+          </div>
+          <div
+            data-pencil-name="Hero Sub"
+            class="text-[18px]/[30px] box-border w-[700px] text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+          >
+            Full-stack engineer &amp; digital designer crafting fast, accessible and considered
+            interfaces for the web.
+          </div>
+          <div
+            data-pencil-name="Hero CTA"
+            class="box-border w-fit h-fit shrink-0 flex flex-row gap-[14px] justify-start items-start"
+          >
+            <div
+              data-pencil-name="Primary Button"
+              class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[14px_24px] justify-start items-start bg-[#111111] rounded-[4px]"
+            >
+              <div
+                data-pencil-name="Primary Label"
+                class="text-[12px]/[normal] box-border text-[#FFFFFF] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+              >
+                VIEW PROJECTS
+              </div>
+            </div>
+            <div
+              data-pencil-name="Secondary Button"
+              class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[14px_24px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[4px]"
+            >
+              <div
+                data-pencil-name="Secondary Label"
+                class="text-[12px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+              >
+                GET IN TOUCH
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-pencil-name="Experience Section"
+          class="box-border w-full h-fit shrink-0 flex flex-col gap-[20px] justify-start items-start"
+        >
+          <div
+            data-pencil-name="Section Header experience"
+            class="box-border w-full h-fit shrink-0 flex flex-row gap-[14px] justify-start items-center"
+          >
+            <div
+              data-pencil-name="Header Slash experience"
+              class="text-[16px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+            >
+              /
+            </div>
+            <div
+              data-pencil-name="Header Label experience"
+              class="text-[16px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[2px] text-left [white-space:nowrap]"
+            >
+              experience
+            </div>
+            <div
+              data-pencil-name="Header Rule experience"
+              class="box-border [flex:1_1_0] h-[1px] bg-[#E4E4E4]"
+            ></div>
+            <div
+              data-pencil-name="Header Index experience"
+              class="text-[12px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              01
+            </div>
+          </div>
+          <div
+            data-pencil-name="Experience List"
+            class="box-border w-full h-fit shrink-0 flex flex-col gap-0 justify-start items-start"
+          >
+            <div
+              data-pencil-name="Entry 0"
+              class="box-border w-full h-fit shrink-0 flex flex-row gap-[40px] p-[28px_0px] justify-start items-start"
+            >
+              <div
+                data-pencil-name="Period 0"
+                class="text-[12px]/[normal] box-border w-[170px] shrink-0 text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+              >
+                2022 — NOW
+              </div>
+              <div
+                data-pencil-name="Detail 0"
+                class="box-border [flex:1_1_0] h-fit flex flex-col gap-[8px] justify-start items-start"
+              >
+                <div
+                  data-pencil-name="Role 0"
+                  class="text-[20px]/[normal] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold text-left"
+                >
+                  Senior Software Engineer
+                </div>
+                <div
+                  data-pencil-name="Company 0"
+                  class="text-[12px]/[normal] box-border w-full text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left"
+                >
+                  ACME CORP · REMOTE
+                </div>
+                <div
+                  data-pencil-name="Desc 0"
+                  class="text-[13px]/[22px] box-border w-full text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+                >
+                  Lead engineer on the design systems team. Shipped a component library used by 12
+                  product teams and cut UI build time in half.
+                </div>
+              </div>
+            </div>
+            <div
+              data-pencil-name="Entry Rule 1"
+              class="box-border w-full h-[1px] shrink-0 bg-[#E4E4E4]"
+            ></div>
+            <div
+              data-pencil-name="Entry 1"
+              class="box-border w-full h-fit shrink-0 flex flex-row gap-[40px] p-[28px_0px] justify-start items-start"
+            >
+              <div
+                data-pencil-name="Period 1"
+                class="text-[12px]/[normal] box-border w-[170px] shrink-0 text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+              >
+                2019 — 2022
+              </div>
+              <div
+                data-pencil-name="Detail 1"
+                class="box-border [flex:1_1_0] h-fit flex flex-col gap-[8px] justify-start items-start"
+              >
+                <div
+                  data-pencil-name="Role 1"
+                  class="text-[20px]/[normal] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold text-left"
+                >
+                  Product Engineer
+                </div>
+                <div
+                  data-pencil-name="Company 1"
+                  class="text-[12px]/[normal] box-border w-full text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left"
+                >
+                  NORTHWIND LABS · BERLIN
+                </div>
+                <div
+                  data-pencil-name="Desc 1"
+                  class="text-[13px]/[22px] box-border w-full text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+                >
+                  Built and scaled the customer-facing dashboard from prototype to 40k monthly users
+                  across web and mobile.
+                </div>
+              </div>
+            </div>
+            <div
+              data-pencil-name="Entry Rule 2"
+              class="box-border w-full h-[1px] shrink-0 bg-[#E4E4E4]"
+            ></div>
+            <div
+              data-pencil-name="Entry 2"
+              class="box-border w-full h-fit shrink-0 flex flex-row gap-[40px] p-[28px_0px] justify-start items-start"
+            >
+              <div
+                data-pencil-name="Period 2"
+                class="text-[12px]/[normal] box-border w-[170px] shrink-0 text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+              >
+                2017 — 2019
+              </div>
+              <div
+                data-pencil-name="Detail 2"
+                class="box-border [flex:1_1_0] h-fit flex flex-col gap-[8px] justify-start items-start"
+              >
+                <div
+                  data-pencil-name="Role 2"
+                  class="text-[20px]/[normal] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold text-left"
+                >
+                  Frontend Developer
+                </div>
+                <div
+                  data-pencil-name="Company 2"
+                  class="text-[12px]/[normal] box-border w-full text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left"
+                >
+                  STUDIO KERN · JAKARTA
+                </div>
+                <div
+                  data-pencil-name="Desc 2"
+                  class="text-[13px]/[22px] box-border w-full text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+                >
+                  Delivered marketing sites and interactive stories for culture and fintech clients.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-pencil-name="Projects Section"
+          class="box-border w-full h-fit shrink-0 flex flex-col gap-[24px] justify-start items-start"
+        >
+          <div
+            data-pencil-name="Section Header project"
+            class="box-border w-full h-fit shrink-0 flex flex-row gap-[14px] justify-start items-center"
+          >
+            <div
+              data-pencil-name="Header Slash project"
+              class="text-[16px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+            >
+              /
+            </div>
+            <div
+              data-pencil-name="Header Label project"
+              class="text-[16px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[2px] text-left [white-space:nowrap]"
+            >
+              project
+            </div>
+            <div
+              data-pencil-name="Header Rule project"
+              class="box-border [flex:1_1_0] h-[1px] bg-[#E4E4E4]"
+            ></div>
+            <div
+              data-pencil-name="Header Index project"
+              class="text-[12px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              02
+            </div>
+          </div>
+          <div
+            data-pencil-name="Project Grid"
+            class="box-border w-full h-fit shrink-0 flex flex-col gap-[24px] justify-start items-start"
+          >
+            <div
+              data-pencil-name="Project Row 0"
+              class="box-border w-full h-fit shrink-0 flex flex-row gap-[24px] justify-start items-start"
+            >
+              <div
+                data-pencil-name="Card 01 / FEATURED"
+                class="box-border [flex:1_1_0] h-[300px] flex flex-col gap-[16px] p-[26px] justify-between items-start bg-[#FFFFFF] [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[6px]"
+              >
+                <div
+                  data-pencil-name="Card Top 01 / FEATURED"
+                  class="box-border w-full h-fit shrink-0 flex flex-col gap-[12px] justify-start items-start"
+                >
+                  <div
+                    data-pencil-name="Card Index 01 / FEATURED"
+                    class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1.5px] text-left [white-space:nowrap]"
+                  >
+                    01 / FEATURED
+                  </div>
+                  <div
+                    data-pencil-name="Card Title 01 / FEATURED"
+                    class="text-[22px]/[26px] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold text-left"
+                  >
+                    Meridian — Analytics Dashboard
+                  </div>
+                  <div
+                    data-pencil-name="Card Desc 01 / FEATURED"
+                    class="text-[13px]/[21px] box-border w-full text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+                  >
+                    A real-time analytics platform with composable widgets and a fully themable
+                    charting layer.
+                  </div>
+                </div>
+                <div
+                  data-pencil-name="Card Bottom 01 / FEATURED"
+                  class="box-border w-full h-fit shrink-0 flex flex-row gap-[12px] justify-between items-center"
+                >
+                  <div
+                    data-pencil-name="Card Tags 01 / FEATURED"
+                    class="box-border w-fit shrink-0 h-fit flex flex-row gap-[8px] justify-start items-center"
+                  >
+                    <div
+                      data-pencil-name="Tag REACT"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text REACT 01 / FEATURED"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        REACT
+                      </div>
+                    </div>
+                    <div
+                      data-pencil-name="Tag D3"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text D3 01 / FEATURED"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        D3
+                      </div>
+                    </div>
+                    <div
+                      data-pencil-name="Tag DESIGN SYSTEM"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text DESIGN SYSTEM 01 / FEATURED"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        DESIGN SYSTEM
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-pencil-name="Card Link 01 / FEATURED"
+                    class="text-[12px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                  >
+                    VIEW →
+                  </div>
+                </div>
+              </div>
+              <div
+                data-pencil-name="Card 02"
+                class="box-border [flex:1_1_0] h-[300px] flex flex-col gap-[16px] p-[26px] justify-between items-start bg-[#FFFFFF] [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[6px]"
+              >
+                <div
+                  data-pencil-name="Card Top 02"
+                  class="box-border w-full h-fit shrink-0 flex flex-col gap-[12px] justify-start items-start"
+                >
+                  <div
+                    data-pencil-name="Card Index 02"
+                    class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1.5px] text-left [white-space:nowrap]"
+                  >
+                    02
+                  </div>
+                  <div
+                    data-pencil-name="Card Title 02"
+                    class="text-[22px]/[26px] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold text-left"
+                  >
+                    Halo Commerce
+                  </div>
+                  <div
+                    data-pencil-name="Card Desc 02"
+                    class="text-[13px]/[21px] box-border w-full text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+                  >
+                    Headless storefront with edge rendering and a checkout that converts 18% better.
+                  </div>
+                </div>
+                <div
+                  data-pencil-name="Card Bottom 02"
+                  class="box-border w-full h-fit shrink-0 flex flex-row gap-[12px] justify-between items-center"
+                >
+                  <div
+                    data-pencil-name="Card Tags 02"
+                    class="box-border w-fit shrink-0 h-fit flex flex-row gap-[8px] justify-start items-center"
+                  >
+                    <div
+                      data-pencil-name="Tag NEXT.JS"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text NEXT.JS 02"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        NEXT.JS
+                      </div>
+                    </div>
+                    <div
+                      data-pencil-name="Tag STRIPE"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text STRIPE 02"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        STRIPE
+                      </div>
+                    </div>
+                    <div
+                      data-pencil-name="Tag EDGE"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text EDGE 02"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        EDGE
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-pencil-name="Card Link 02"
+                    class="text-[12px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                  >
+                    VIEW →
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-pencil-name="Project Row 1"
+              class="box-border w-full h-fit shrink-0 flex flex-row gap-[24px] justify-start items-start"
+            >
+              <div
+                data-pencil-name="Card 03"
+                class="box-border [flex:1_1_0] h-[300px] flex flex-col gap-[16px] p-[26px] justify-between items-start bg-[#FFFFFF] [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[6px]"
+              >
+                <div
+                  data-pencil-name="Card Top 03"
+                  class="box-border w-full h-fit shrink-0 flex flex-col gap-[12px] justify-start items-start"
+                >
+                  <div
+                    data-pencil-name="Card Index 03"
+                    class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1.5px] text-left [white-space:nowrap]"
+                  >
+                    03
+                  </div>
+                  <div
+                    data-pencil-name="Card Title 03"
+                    class="text-[22px]/[26px] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold text-left"
+                  >
+                    Archive OS
+                  </div>
+                  <div
+                    data-pencil-name="Card Desc 03"
+                    class="text-[13px]/[21px] box-border w-full text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+                  >
+                    A personal knowledge system for researchers, built around fast full-text search.
+                  </div>
+                </div>
+                <div
+                  data-pencil-name="Card Bottom 03"
+                  class="box-border w-full h-fit shrink-0 flex flex-row gap-[12px] justify-between items-center"
+                >
+                  <div
+                    data-pencil-name="Card Tags 03"
+                    class="box-border w-fit shrink-0 h-fit flex flex-row gap-[8px] justify-start items-center"
+                  >
+                    <div
+                      data-pencil-name="Tag TYPESCRIPT"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text TYPESCRIPT 03"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        TYPESCRIPT
+                      </div>
+                    </div>
+                    <div
+                      data-pencil-name="Tag POSTGRES"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text POSTGRES 03"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        POSTGRES
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-pencil-name="Card Link 03"
+                    class="text-[12px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                  >
+                    VIEW →
+                  </div>
+                </div>
+              </div>
+              <div
+                data-pencil-name="Card 04"
+                class="box-border [flex:1_1_0] h-[300px] flex flex-col gap-[16px] p-[26px] justify-between items-start bg-[#FFFFFF] [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[6px]"
+              >
+                <div
+                  data-pencil-name="Card Top 04"
+                  class="box-border w-full h-fit shrink-0 flex flex-col gap-[12px] justify-start items-start"
+                >
+                  <div
+                    data-pencil-name="Card Index 04"
+                    class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1.5px] text-left [white-space:nowrap]"
+                  >
+                    04
+                  </div>
+                  <div
+                    data-pencil-name="Card Title 04"
+                    class="text-[22px]/[26px] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold text-left"
+                  >
+                    Field Notes
+                  </div>
+                  <div
+                    data-pencil-name="Card Desc 04"
+                    class="text-[13px]/[21px] box-border w-full text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+                  >
+                    Offline-first note taking for field teams, syncing reliably on poor connections.
+                  </div>
+                </div>
+                <div
+                  data-pencil-name="Card Bottom 04"
+                  class="box-border w-full h-fit shrink-0 flex flex-row gap-[12px] justify-between items-center"
+                >
+                  <div
+                    data-pencil-name="Card Tags 04"
+                    class="box-border w-fit shrink-0 h-fit flex flex-row gap-[8px] justify-start items-center"
+                  >
+                    <div
+                      data-pencil-name="Tag SVELTE"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text SVELTE 04"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        SVELTE
+                      </div>
+                    </div>
+                    <div
+                      data-pencil-name="Tag SUPABASE"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text SUPABASE 04"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        SUPABASE
+                      </div>
+                    </div>
+                    <div
+                      data-pencil-name="Tag PWA"
+                      class="box-border w-fit shrink-0 h-fit flex flex-row gap-0 p-[5px_10px] justify-start items-start [outline:1px_solid_#E4E4E4] [outline-offset:-0.5px] rounded-[999px]"
+                    >
+                      <div
+                        data-pencil-name="Tag Text PWA 04"
+                        class="text-[10px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                      >
+                        PWA
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-pencil-name="Card Link 04"
+                    class="text-[12px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+                  >
+                    VIEW →
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-pencil-name="Contact Section"
+          class="box-border w-full h-fit shrink-0 flex flex-col gap-[22px] justify-start items-start"
+        >
+          <div
+            data-pencil-name="Section Header contact"
+            class="box-border w-full h-fit shrink-0 flex flex-row gap-[14px] justify-start items-center"
+          >
+            <div
+              data-pencil-name="Header Slash contact"
+              class="text-[16px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]"
+            >
+              /
+            </div>
+            <div
+              data-pencil-name="Header Label contact"
+              class="text-[16px]/[normal] box-border text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[2px] text-left [white-space:nowrap]"
+            >
+              contact
+            </div>
+            <div
+              data-pencil-name="Header Rule contact"
+              class="box-border [flex:1_1_0] h-[1px] bg-[#E4E4E4]"
+            ></div>
+            <div
+              data-pencil-name="Header Index contact"
+              class="text-[12px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              03
+            </div>
+          </div>
+          <div
+            data-pencil-name="Email"
+            class="text-[42px]/[normal] box-border w-full text-[#111111] font-['JetBrains_Mono',system-ui,sans-serif] font-bold tracking-[-1px] text-left"
+          >
+            hello@yourname.dev
+          </div>
+          <div
+            data-pencil-name="Contact Note"
+            class="text-[14px]/[22px] box-border w-[560px] text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal text-left"
+          >
+            Open to freelance work and full-time roles. Email is the fastest way to reach me.
+          </div>
+          <div
+            data-pencil-name="Contact Links"
+            class="box-border w-fit h-fit shrink-0 flex flex-row gap-[36px] justify-start items-center"
+          >
+            <div
+              data-pencil-name="Link GITHUB"
+              class="text-[13px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              GITHUB
+            </div>
+            <div
+              data-pencil-name="Link LINKEDIN"
+              class="text-[13px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              LINKEDIN
+            </div>
+            <div
+              data-pencil-name="Link TWITTER / X"
+              class="text-[13px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              TWITTER / X
+            </div>
+            <div
+              data-pencil-name="Link DRIBBBLE"
+              class="text-[13px]/[normal] box-border text-[#5A5A5A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              DRIBBBLE
+            </div>
+          </div>
+          <div
+            data-pencil-name="Footer Rule"
+            class="box-border w-full h-[1px] shrink-0 bg-[#E4E4E4]"
+          ></div>
+          <div
+            data-pencil-name="Footer Row"
+            class="box-border w-full h-fit shrink-0 flex flex-row gap-0 justify-between items-center"
+          >
+            <div
+              data-pencil-name="Footer Left"
+              class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              © 2025 YOUR NAME — DESIGNED &amp; BUILT IN THE OPEN
+            </div>
+            <div
+              data-pencil-name="Footer Right"
+              class="text-[11px]/[normal] box-border text-[#9A9A9A] font-['JetBrains_Mono',system-ui,sans-serif] font-normal tracking-[1px] text-left [white-space:nowrap]"
+            >
+              JAKARTA · 14:32 GMT+7
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
