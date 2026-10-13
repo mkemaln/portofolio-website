@@ -1,0 +1,36 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </assets/pp.jpeg>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/project/layout,_N_T_/project/page,_N_T_/project"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/project/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49312,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/9ac97baaa3928977b6a6471e9eb83aef9f7e4a8ada63d7059798c85bea92ce8e/$/project",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/project/page"
+    },
+    "isFallback": false
+  }
+}

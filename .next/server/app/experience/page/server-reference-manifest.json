@@ -1,0 +1,15 @@
+{
+  "node": {
+    "80b5f7a6c29d5943fd0bd69faee9e3b392fed4e28a": {
+      "workers": {
+        "app/experience/page": {
+          "moduleId": 83116,
+          "async": false
+        }
+      },
+      "exportedName": "$$RSC_SERVER_CACHE_0",
+      "filename": "src/lib/copyright.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,36 @@
+{
+  "node": {
+    "80b5f7a6c29d5943fd0bd69faee9e3b392fed4e28a": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": 74829,
+          "async": false
+        },
+        "app/contact/page": {
+          "moduleId": 72721,
+          "async": false
+        },
+        "app/experience/page": {
+          "moduleId": 83116,
+          "async": false
+        },
+        "app/page": {
+          "moduleId": 3678,
+          "async": false
+        },
+        "app/project/[slug]/page": {
+          "moduleId": 84839,
+          "async": false
+        },
+        "app/project/page": {
+          "moduleId": 16132,
+          "async": false
+        }
+      },
+      "filename": "src/lib/copyright.ts",
+      "exportedName": "$$RSC_SERVER_CACHE_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "WoGy2FpS3LTrSI5ByDnOSNtD2MSjirUEMA+ujCpPA5s="
+}

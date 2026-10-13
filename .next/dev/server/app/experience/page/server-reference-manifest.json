@@ -1,0 +1,15 @@
+{
+  "node": {
+    "8059c3bfddc39ea062b1d677820645fd20e5bd8259": {
+      "workers": {
+        "app/experience/page": {
+          "moduleId": "[project]/.next-internal/server/app/experience/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/copyright.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "exportedName": "$$RSC_SERVER_CACHE_0",
+      "filename": "src/lib/copyright.ts"
+    }
+  },
+  "edge": {}
+}

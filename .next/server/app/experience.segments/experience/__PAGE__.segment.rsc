@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/0be-g4hv22rf1.js"
+3:I[27423,["$2"],"themeInitScript"]
+4:I[27423,["$2"],"ThemeProvider"]
+5:I[29014,["$2"],"Sidebar"]
+6:I[39756,["$2"],"default"]
+7:I[37457,["$2"],"default"]
+8:I[22016,["$2"],""]
+14:"ViewportBoundary"
+15:I[97367,["$2"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$2"],"$16"]
+18:"$Sreact.suspense"
+19:I[27201,["$2"],"IconMark"]
+:HL["/_next/static/chunks/1v_4fk4fo13tr.css","style"]
+a:X
+a:C
+b:X
+b:300
+b:300
+b:C
+e:X
+e:C
+13:X
+13:C
+f:[["children",{"s":"__PAGE__","h":49314,"d":{"r":["$","$1","c",{"children":[["$","section",null,{"className":"flex w-full flex-col gap-[20px]","children":[["$","div",null,{"className":"flex w-full items-center gap-[14px]","children":[["$","span",null,{"className":"text-[16px] text-subtle","children":"/"}],["$","span",null,{"className":"text-[16px] tracking-[2px] text-ink","children":"experience"}],["$","span",null,{"className":"h-px flex-1 bg-line"}],["$","span",null,{"className":"text-[12px] tracking-[1px] text-subtle","children":"01"}]]}],["$","p",null,{"className":"max-w-[620px] text-[13px] leading-[22px] text-muted","children":"Roles and the work that came out of them, most recent first."}],["$","div",null,{"className":"flex w-full flex-col","children":[["$","div","geomedia",{"children":[false,["$","div",null,{"className":"flex w-full flex-col gap-[20px] py-[28px] sm:flex-row sm:gap-[40px]","children":[["$","span",null,{"className":"w-full shrink-0 text-[16px] text-subtle sm:w-[170px]","children":"July 2025 — December 2025"}],["$","div",null,{"className":"flex flex-1 flex-col gap-[8px]","children":[["$","h3",null,{"className":"text-[20px] font-bold text-ink","children":"Software Engineer Intern"}],["$","span",null,{"className":"text-[18px] tracking-[1px] text-subtle","children":"PT Geomedia Sinergi · ONSITE"}],["$","p",null,{"className":"text-[16px] leading-[22px] text-muted","children":"Worked in a team to deliver a custom, on-premise web solution commissioned by a government client."}],["$","ul",null,{"className":"mt-[8px] flex flex-col gap-[6px]","children":[["$","li","0",{"className":"relative pl-[20px] text-[16px] leading-[24px] text-muted","children":[["$","span",null,{"className":"absolute left-0 text-subtle","children":"—"}],[["$","span","0",{"children":"Designed and implemented web application interfaces using Tailwind CSS."}]]]}],["$","li","1",{"className":"relative pl-[20px] text-[16px] leading-[24px] text-muted","children":[["$","span",null,{"className":"absolute left-0 text-subtle","children":"—"}],[["$","span","0",{"children":"Developed RESTful APIs with Laravel to support application logic."}]]]}],["$","li","2",{"className":"relative pl-[20px] text-[16px] leading-[24px] text-muted","children":[["$","span",null,{"className":"absolute left-0 text-subtle","children":"—"}],[["$","span","0",{"children":"Integrated frontend and backend systems to ensure smooth data processing and flow."}]]]}],"$L10"]}]]}]]}]]}]]}]]}],null,"$L11"]}],"p":"$@12","v":"$13","s":"$b"}}]]
+c:[["children",{"s":"experience","h":49250,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+1b:X
+1b:C
+1e:X
+1e:C
+0:{"t":{"t":{"s":"","h":49234,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1v_4fk4fo13tr.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0be-g4hv22rf1.js","async":true}]],["$","html",null,{"lang":"en","data-theme":"light","suppressHydrationWarning":true,"className":"VxV-Ta_variable h-full","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],["$","body",null,{"className":"min-h-full","children":["$","$L4",null,{"children":["$","div",null,{"className":"min-h-screen bg-bg","children":[["$","$L5",null,{"year":2026}],["$","main",null,{"className":"min-h-screen pt-[var(--header-height)] lg:pl-[400px] lg:pt-0","children":["$","div",null,{"className":"scroll-region flex min-h-[calc(100vh-var(--header-height))] flex-col gap-[80px] px-[24px] py-[48px] sm:gap-[110px] lg:min-h-screen lg:px-[72px] lg:py-[72px]","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[["$","section",null,{"className":"flex w-full flex-col gap-[24px]","children":[["$","span",null,{"className":"text-[12px] tracking-[2px] text-subtle","children":"// 404"}],["$","h1",null,{"className":"text-[42px] leading-[1.05] font-bold tracking-[-2px] text-ink","children":"NOT FOUND"}],["$","p",null,{"className":"max-w-[520px] text-[14px] leading-[22px] text-muted","children":"That route does not exist. Try the navigation on the left."}],["$","$L8",null,{"href":"/","className":"inline-flex w-fit items-center gap-[10px] rounded-[4px] px-[24px] py-[14px] text-[12px] tracking-[1px] transition-colors bg-inverse text-on-inverse hover:opacity-90","children":"BACK HOME"}]]}],[]]}]}]}]]}]}]}]]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Experience — Muhammad Kemal Nugraha"}],["$","meta","1",{"name":"description","content":"Most of the time doing backend works, but open to Full Stack Role. Onsite or Remote works for me."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L19","3",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":"$1b","s":"$b"}},"a":"$@1c","u":"$@1d","b":"buSreXinuBUsyiRrFsoXc","r":"$1e"}
+1f:I[97367,["$2"],"OutletBoundary"]
+10:["$","li","3",{"className":"relative pl-[20px] text-[16px] leading-[24px] text-muted","children":[["$","span",null,{"className":"absolute left-0 text-subtle","children":"—"}],[["$","span","0",{"children":"Optimized user interface (UI) designs to simplify data input processes and improve system usability."}]]]}]
+11:["$","$L1f",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+1d:false
+20:null
+1c:null
+d:"$undefined"
+9:"$undefined"
+1a:"$undefined"
+12:"$undefined"
