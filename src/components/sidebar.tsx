@@ -48,9 +48,9 @@ function SidebarBody({
     <>
       <div className="flex w-full flex-col gap-[clamp(16px,2.4vh,34px)]">
         <div className="flex aspect-square w-[clamp(120px,19vh,248px)] shrink-0 flex-col items-center justify-center gap-[10px] rounded-[6px] border border-line bg-surface-sunken">
-          <UserIcon className="h-[clamp(26px,3.6vh,44px)] w-[clamp(26px,3.6vh,44px)] text-subtle" />
+          {/* <UserIcon className="h-[clamp(26px,3.6vh,44px)] w-[clamp(26px,3.6vh,44px)] text-subtle" /> */}
           <span className="text-[11px] tracking-[1.5px] text-subtle">
-            {"// YOUR PHOTO"}
+            <img src="/assets/pp.jpeg" alt="Profile" />
           </span>
         </div>
 

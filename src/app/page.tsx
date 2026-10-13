@@ -11,7 +11,7 @@ export default async function HomePage() {
   const projects = getEntries("projects");
   const experience = getEntries("experience");
   const latestProjects = projects.slice(0, 2);
-  const latestExperience = experience.slice(0, 3);
+  // const latestExperience = experience.slice(0, 3);
 
   return (
     <>
@@ -49,9 +49,9 @@ export default async function HomePage() {
         <SectionHeader
           label="experience"
           index="01"
-          action={<TextLink href="/experience">ALL</TextLink>}
+          action={<TextLink href="/experience">MORE</TextLink>}
         />
-        <ExperienceSection entries={latestExperience} />
+        <ExperienceSection entries={experience} />
       </section>
 
       {/* Latest projects */}
@@ -59,7 +59,7 @@ export default async function HomePage() {
         <SectionHeader
           label="project"
           index="02"
-          action={<TextLink href="/project">ALL</TextLink>}
+          action={<TextLink href="/project">MORE</TextLink>}
         />
         <ProjectGrid entries={latestProjects} />
       </section>

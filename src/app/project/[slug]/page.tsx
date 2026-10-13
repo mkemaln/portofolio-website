@@ -11,6 +11,8 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
+export const instant = false;
+
 export function generateStaticParams() {
   return getEntries("projects").map((entry) => ({ slug: entry.slug }));
 }
@@ -55,14 +57,14 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             {summary}
           </p>
         )}
-        <div className="flex w-full flex-wrap items-center justify-between gap-[16px]">
+        {/* <div className="flex w-full flex-wrap items-center justify-between gap-[16px]">
           <TagList tags={tags} />
           {href && (
             <TextLink href={href} external>
               VISIT
             </TextLink>
           )}
-        </div>
+        </div> */}
       </div>
 
       <div className="h-px w-full bg-line" />
@@ -70,8 +72,8 @@ export default async function ProjectDetailPage({ params }: PageProps) {
       <Mdx source={entry.body} />
 
       {others.length > 0 && (
-        <div className="flex w-full flex-col gap-[16px]">
-          <SectionHeader label="more" />
+        <div className="flex w-full flex-col gap-[16px] pt-20">
+          <SectionHeader label="Other Projects" />
           <ul className="flex flex-col">
             {others.map((item) => (
               <li key={item.slug} className="border-t border-line first:border-t-0">
