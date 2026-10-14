@@ -57,6 +57,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             {summary}
           </p>
         )}
+        <TagList tags={tags} />
         {/* <div className="flex w-full flex-wrap items-center justify-between gap-[16px]">
           <TagList tags={tags} />
           {href && (

@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/0be-g4hv22rf1.js"
+3:I[27423,["$2"],"themeInitScript"]
+4:I[27423,["$2"],"ThemeProvider"]
+5:I[29014,["$2"],"Sidebar"]
+6:I[39756,["$2"],"default"]
+7:I[37457,["$2"],"default"]
+8:I[22016,["$2"],""]
+13:I[97367,["$2"],"OutletBoundary"]
+14:"$Sreact.suspense"
+18:"ViewportBoundary"
+19:I[97367,["$2"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$2"],"$1a"]
+:HL["/_next/static/chunks/1v_4fk4fo13tr.css","style"]
+a:X
+b:X
+b:300
+b:300
+e:X
+e:C
+17:X
+11:[["children",{"s":"__PAGE__","h":57506,"d":{"r":["$","$1","c",{"children":["$L12",null,["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],"p":"$@16","v":"$17","s":"$b"}}]]
+f:[["children",{"s":{"n":"slug","t":"d","k":null,"s":[]},"h":57442,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@10","v":"$e","s":"$b"},"c":"$Q11"}]]
+c:[["children",{"s":"project","h":57442,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+1e:X
+21:X
+0:{"t":{"t":{"s":"","h":57426,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1v_4fk4fo13tr.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0be-g4hv22rf1.js","async":true}]],["$","html",null,{"lang":"en","data-theme":"light","suppressHydrationWarning":true,"className":"VxV-Ta_variable h-full","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],["$","body",null,{"className":"min-h-full","children":["$","$L4",null,{"children":["$","div",null,{"className":"min-h-screen bg-bg","children":[["$","$L5",null,{"year":2026}],["$","main",null,{"className":"min-h-screen pt-[var(--header-height)] lg:pl-[400px] lg:pt-0","children":["$","div",null,{"className":"scroll-region flex min-h-[calc(100vh-var(--header-height))] flex-col gap-[80px] px-[24px] py-[48px] sm:gap-[110px] lg:min-h-screen lg:px-[72px] lg:py-[72px]","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[["$","section",null,{"className":"flex w-full flex-col gap-[24px]","children":[["$","span",null,{"className":"text-[12px] tracking-[2px] text-subtle","children":"// 404"}],["$","h1",null,{"className":"text-[42px] leading-[1.05] font-bold tracking-[-2px] text-ink","children":"NOT FOUND"}],["$","p",null,{"className":"max-w-[520px] text-[14px] leading-[22px] text-muted","children":"That route does not exist. Try the navigation on the left."}],["$","$L8",null,{"href":"/","className":"inline-flex w-fit items-center gap-[10px] rounded-[4px] px-[24px] py-[14px] text-[12px] tracking-[1px] transition-colors bg-inverse text-on-inverse hover:opacity-90","children":"BACK HOME"}]]}],[]]}]}]}]]}]}]}]]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":"$L1c"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1d","v":"$1e","s":"$b"}},"a":"$@1f","u":"$@20","b":"chPkIhvcaPNxCIOur2buJ","r":"$21"}
+23:I[27201,["$2"],"IconMark"]
+:HL["/assets/hris.png","image"]
+17:T4,slug1e:T4,slugb:C
+1e:C
+21:C
+17:C
+a:C
+12:["$","article",null,{"className":"flex w-full flex-col gap-[32px]","children":[["$","div",null,{"className":"flex w-full flex-col gap-[20px]","children":[["$","$L8",null,{"href":"/project","className":"text-[12px] tracking-[1px] text-subtle transition-colors hover:text-ink","children":"← ALL PROJECTS"}],["$","div",null,{"className":"flex w-full items-center gap-[14px]","children":[["$","span",null,{"className":"text-[16px] text-subtle","children":"/"}],["$","span",null,{"className":"text-[16px] tracking-[2px] text-ink","children":"project"}],["$","span",null,{"className":"h-px flex-1 bg-line"}],["$","span",null,{"className":"text-[12px] tracking-[1px] text-subtle","children":"02"}]]}],["$","h1",null,{"className":"text-[36px] leading-[1.1] font-bold tracking-[-1px] text-ink sm:text-[44px]","children":"HRIS"}],["$","p",null,{"className":"max-w-[700px] text-[15px] leading-[26px] text-muted","children":"HR Information system on-premise for PT cmlabs Indonesia Digital Project."}],["$","div",null,{"className":"flex w-fit flex-wrap items-center gap-[8px]","children":[["$","span","ACADEMIC",{"className":"flex w-fit items-center rounded-full border border-line px-[10px] py-[5px] text-[10px] tracking-[1px] whitespace-nowrap text-muted","children":"ACADEMIC"}],["$","span","PROJECT MANAGER",{"className":"flex w-fit items-center rounded-full border border-line px-[10px] py-[5px] text-[10px] tracking-[1px] whitespace-nowrap text-muted","children":"PROJECT MANAGER"}],["$","span","BACKEND DEV",{"className":"flex w-fit items-center rounded-full border border-line px-[10px] py-[5px] text-[10px] tracking-[1px] whitespace-nowrap text-muted","children":"BACKEND DEV"}]]}]]}],["$","div",null,{"className":"h-px w-full bg-line"}],["$","div",null,{"className":"prose-porto","children":[["$","p",null,{"children":"HRIS is a website worker management application for HR. This website is focused on managing employees, attendance, payroll and leave for employees company.\nHRIS is developed in a cooperation between JTI Polinema and PT cmlabs Indonesia Digital."}],"\n",["$","h2",null,{"id":"my-contribution","children":"My Contribution"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Responsible for communicating application/software requirements with PT cmlabs Indonesia Digital."}],"\n",["$","li",null,{"children":"Responsible for team management and task distribution among team members."}],"\n",["$","li",null,{"children":"Built API-based backend systems using the Laravel framework."}],"\n",["$","li",null,{"children":"Responsible for CI/CD and server configuration to optimize development efficiency."}],"\n"]}],"\n",["$","h2",null,{"id":"take-a-look","children":"Take a Look"}],"\n",["$","p",null,{"children":["$","img",null,{"src":"/assets/hris.png","alt":""}]}],"\n",["$","h2",null,{"id":"stack","children":"Stack"}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"Laravel"}]," ",["$","code",null,{"children":"Next Js"}]]}]]}],["$","div",null,{"className":"flex w-full flex-col gap-[16px] pt-20","children":[["$","div",null,{"className":"flex w-full items-center gap-[14px]","children":[["$","span",null,{"className":"text-[16px] text-subtle","children":"/"}],["$","span",null,{"className":"text-[16px] tracking-[2px] text-ink","children":"Other Projects"}],["$","span",null,{"className":"h-px flex-1 bg-line"}],null]}],["$","ul",null,{"className":"flex flex-col","children":[["$","li","rawanaman",{"className":"border-t border-line first:border-t-0","children":["$","$L8",null,{"href":"/project/rawanaman","className":"flex w-full items-center justify-between gap-[16px] py-[16px] transition-opacity hover:opacity-70","children":[["$","span",null,{"className":"text-[14px] text-ink","children":"Rawanaman"}],["$","span",null,{"className":"text-[11px] tracking-[1px] text-subtle","children":"02"}]]}]}],["$","li","sirw",{"className":"border-t border-line first:border-t-0","children":["$","$L8",null,{"href":"/project/sirw","className":"flex w-full items-center justify-between gap-[16px] py-[16px] transition-opacity hover:opacity-70","children":[["$","span",null,{"className":"text-[14px] text-ink","children":"SI-RW"}],"$L22"]}]}]]}]]}]]}]
+15:null
+1c:[["$","title","0",{"children":"HRIS — Muhammad Kemal Nugraha"}],["$","meta","1",{"name":"description","content":"HR Information system on-premise for PT cmlabs Indonesia Digital Project."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L23","3",{}]]
+20:false
+22:["$","span",null,{"className":"text-[11px] tracking-[1px] text-subtle","children":"03"}]
+1f:3466
+10:"$undefined"
+d:"$undefined"
+9:"$undefined"
+1d:"$undefined"
+16:"$undefined"

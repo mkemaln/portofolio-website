@@ -915,7 +915,7 @@ const site = {
     timezone: "UTC+7",
     status: "AVAILABLE FOR NEW PROJECTS",
     tagline: "// YonKaGor Fans",
-    headline: "Most of the time doing backend works, but open to Full Stack Role. Onsite or Remote works for me.",
+    headline: "Most of the time doing Backend dev works, but open to Full Stack Role. Onsite or Remote works for me.",
     email: "nugraha.kemal03@gmail.com",
     contactNote: "Open to freelance work and full-time roles.",
     footerNote: "Designed and Built with a bowl of Indomie"

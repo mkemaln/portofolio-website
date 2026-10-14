@@ -19,7 +19,7 @@ d:X
 14:X
 16:X
 17:X
-0:{"P":null,"c":["","experience"],"q":"","i":false,"t":{"t":{"s":"","h":530,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1v_4fk4fo13tr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0be-g4hv22rf1.js","async":true,"nonce":"$undefined"}]],"$L2"]}],"p":true,"v":"$3"},"c":"$Q4"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$b",null,{"name":"Next.Metadata","children":"$L13"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":true,"v":"$14"}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1v_4fk4fo13tr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$16","s":"$17","a":"$@18","l":"$undefined","p":"$undefined","d":"$undefined","b":"buSreXinuBUsyiRrFsoXc","u":"$@19"}
+0:{"P":null,"c":["","experience"],"q":"","i":false,"t":{"t":{"s":"","h":530,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1v_4fk4fo13tr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0be-g4hv22rf1.js","async":true,"nonce":"$undefined"}]],"$L2"]}],"p":true,"v":"$3"},"c":"$Q4"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$b",null,{"name":"Next.Metadata","children":"$L13"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":true,"v":"$14"}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1v_4fk4fo13tr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$16","s":"$17","a":"$@18","l":"$undefined","p":"$undefined","d":"$undefined","b":"chPkIhvcaPNxCIOur2buJ","u":"$@19"}
 1a:I[27423,["$5"],"themeInitScript"]
 1b:I[27423,["$5"],"ThemeProvider"]
 1c:I[29014,["$5"],"Sidebar"]
@@ -31,7 +31,7 @@ d:X
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]
 1e:I[27201,["$5"],"IconMark"]
 c:null
-13:[["$","title","0",{"children":"Experience — Muhammad Kemal Nugraha"}],["$","meta","1",{"name":"description","content":"Most of the time doing backend works, but open to Full Stack Role. Onsite or Remote works for me."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L1e","3",{}]]
+13:[["$","title","0",{"children":"Experience — Muhammad Kemal Nugraha"}],["$","meta","1",{"name":"description","content":"Most of the time doing Backend dev works, but open to Full Stack Role. Onsite or Remote works for me."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L1e","3",{}]]
 17:C
 14:C
 16:C

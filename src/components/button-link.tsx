@@ -60,7 +60,7 @@ export function TextLink({
 
   if (external) {
     return (
-      <a href={href} target="_blank" rel="noreferrer" className={className}>
+      <a href={href} rel="noreferrer" className={className}>
         {children}
         <ArrowRightIcon className="h-[14px] w-[14px]" />
       </a>

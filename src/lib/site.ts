@@ -15,7 +15,7 @@ export const site = {
   location: "Indonesia",
   timezone: "UTC+7",
   status: "AVAILABLE FOR NEW PROJECTS",
-  tagline: "// YonKaGor Fans",
+  tagline: "// デート・ア・ライブ  -  ぼっち・ざ・ろっく！",
   headline:
     "Most of the time doing Backend dev works, but open to Full Stack Role. Onsite or Remote works for me.",
   email: "nugraha.kemal03@gmail.com",
