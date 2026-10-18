@@ -50,6 +50,13 @@
 
   --font-sans: var(--font-jetbrains-mono);
   --font-mono: var(--font-jetbrains-mono);
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  --animate-float: float 3000ms ease-in-out 0ms infinite normal;
 }
 
 :root {

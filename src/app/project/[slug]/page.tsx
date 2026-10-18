@@ -74,7 +74,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
 
       {others.length > 0 && (
         <div className="flex w-full flex-col gap-[16px] pt-20">
-          <SectionHeader label="Other Projects" />
+          <SectionHeader label="other projects" />
           <ul className="flex flex-col">
             {others.map((item) => (
               <li key={item.slug} className="border-t border-line first:border-t-0">

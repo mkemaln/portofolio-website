@@ -1,7 +1,11 @@
-export function Tag({ children }: { children: React.ReactNode }) {
+import { tagIcons } from "@/components/icons";
+
+export function Tag({ tag }: { tag: string }) {
+  const Icon = tagIcons[tag.toLowerCase()];
   return (
-    <span className="flex w-fit items-center rounded-full border border-line px-[10px] py-[5px] text-[10px] tracking-[1px] whitespace-nowrap text-muted">
-      {children}
+    <span className="relative inline-flex w-fit items-center gap-[6px] rounded-full border border-line px-[10px] py-[5px] text-[10px] tracking-[1px] whitespace-nowrap text-muted">
+      {Icon && <Icon className="absolute -top-1 -left-1 h-[14px] w-[14px]" />}
+      {tag}
     </span>
   );
 }
@@ -11,7 +15,7 @@ export function TagList({ tags }: { tags?: string[] }) {
   return (
     <div className="flex w-fit flex-wrap items-center gap-[8px]">
       {tags.map((tag) => (
-        <Tag key={tag}>{tag}</Tag>
+        <Tag key={tag} tag={tag} />
       ))}
     </div>
   );

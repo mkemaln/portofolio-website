@@ -6,6 +6,7 @@ import { useState } from "react";
 import { ThemeToggle, ThemeToggleCompact } from "@/components/theme-toggle";
 import { UserIcon, MenuIcon, CloseIcon, icons } from "@/components/icons";
 import { nav, site, socials } from "@/lib/site";
+import { TextLink } from "./button-link";
 
 function NavLink({
   href,
@@ -47,10 +48,10 @@ function SidebarBody({
   return (
     <>
       <div className="flex w-full flex-col gap-[clamp(16px,2.4vh,34px)]">
-        <div className="flex aspect-square w-[clamp(120px,19vh,248px)] shrink-0 flex-col items-center justify-center gap-[10px] rounded-[6px] border border-line bg-surface-sunken">
+        <div className="flex animate-float rounded-lg aspect-square w-[clamp(120px,19vh,248px)] shrink-0 flex-col items-center justify-center gap-[10px] border border-line bg-surface-sunken">
           {/* <UserIcon className="h-[clamp(26px,3.6vh,44px)] w-[clamp(26px,3.6vh,44px)] text-subtle" /> */}
           <span className="text-[11px] tracking-[1.5px] text-subtle">
-            <img src="/assets/pp.jpeg" alt="Profile" />
+            <img className="rounded-lg" src="/assets/pp.jpeg" alt="Profile" />
           </span>
         </div>
 
@@ -110,8 +111,10 @@ function SidebarBody({
           })}
         </div>
 
-        <span className="text-[10px] tracking-[1px] text-subtle">
-          © {year} — ALL RIGHTS RESERVED
+        <span className="flex justify-between text-[10px] tracking-[1px] text-subtle">
+          <div>© {year} — ALL RIGHTS RESERVED</div>
+          <a className="text-muted transition-colors hover:text-ink" href="/more">More?</a>
+          {/* <TextLink href="/a">More?</TextLink> */}
         </span>
       </div>
     </>

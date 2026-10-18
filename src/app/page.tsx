@@ -24,8 +24,27 @@ export default async function HomePage() {
           </span>
         </div>
 
-        <span className="text-[12px] tracking-[2px] text-subtle">
-          {site.tagline}
+        <span className="flex text-[12px] tracking-[2px] text-subtle gap-2">
+          {/* {site.tagline} */}
+          <div className="flex gap-1 px-2 group w-fit">
+            <div className="group-hover:text-[#4c3255]">デ</div>
+            <div className="group-hover:text-[#2b479b]">ー</div>
+            <div className="group-hover:text-[#cd4e5d]">ト</div>
+            <div className="group-hover:text-[#f57743]">・</div>
+            <div className="group-hover:text-[#8283c1]">ア</div>
+            <div className="group-hover:text-[#4c9a91]">・</div>
+            <div className="group-hover:text-[#cedded]">ラ</div>
+            <div className="group-hover:text-[#c0c5c8]">イ</div>
+            <div className="group-hover:text-[#fefea7]">ブ</div>
+            <div className="group-hover:text-[#9f2c29]">!</div>
+          </div>
+          /
+          <div className="flex gap-1 px-2 group w-fit"> 
+            <div className="group-hover:text-[#F2C9D5]">ぼっ</div>
+            <div className="group-hover:text-[#B43E44]">ち・ざ</div>
+            <div className="group-hover:text-[#FADF92]">・ろ</div>
+            <div className="group-hover:text-[#496496]">っく！</div>
+          </div>
         </span>
 
         <h1 className="text-[52px] leading-[1.02] font-bold tracking-[-3px] text-ink sm:text-[72px] xl:text-[84px]">
