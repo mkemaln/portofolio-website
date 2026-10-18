@@ -26,7 +26,7 @@ export default async function HomePage() {
 
         <span className="flex text-[12px] tracking-[2px] text-subtle gap-2">
           {/* {site.tagline} */}
-          <div className="flex gap-1 px-2 group w-fit">
+          <div className="flex gap-1 px-2 group w-fit transition-transform duration-200 hover:animate-wiggle hover:scale-120">
             <div className="group-hover:text-[#4c3255]">デ</div>
             <div className="group-hover:text-[#2b479b]">ー</div>
             <div className="group-hover:text-[#cd4e5d]">ト</div>
@@ -39,7 +39,7 @@ export default async function HomePage() {
             <div className="group-hover:text-[#9f2c29]">!</div>
           </div>
           /
-          <div className="flex gap-1 px-2 group w-fit"> 
+          <div className="flex gap-1 px-2 group w-fit transition-transform duration-200 hover:animate-wiggle hover:scale-120"> 
             <div className="group-hover:text-[#F2C9D5]">ぼっ</div>
             <div className="group-hover:text-[#B43E44]">ち・ざ</div>
             <div className="group-hover:text-[#FADF92]">・ろ</div>

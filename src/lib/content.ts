@@ -8,6 +8,7 @@ export type EntryFrontmatter = {
   order?: number;
   featured?: boolean;
   tags?: string[];
+  stack?: string[];
   period?: string;
   company?: string;
   location?: string;
@@ -92,6 +93,9 @@ function toEntry(collection: Collection, slug: string, raw: string): Entry {
       featured: frontmatter.featured === true,
       tags: Array.isArray(frontmatter.tags)
         ? (frontmatter.tags as string[])
+        : undefined,
+      stack: Array.isArray(frontmatter.stack)
+        ? (frontmatter.stack as string[])
         : undefined,
       period:
         frontmatter.period === undefined ? undefined : String(frontmatter.period),

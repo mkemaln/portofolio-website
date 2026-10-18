@@ -39,10 +39,10 @@ export function ProjectCard({
         <TagList tags={tags} />
         {href ? (
           <TextLink href={href} external>
-            VIEW
+            READ
           </TextLink>
         ) : (
-          <TextLink href={detailHref}>VIEW</TextLink>
+          <TextLink href={detailHref}>READ</TextLink>
         )}
       </div>
     </article>

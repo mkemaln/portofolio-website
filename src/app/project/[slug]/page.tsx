@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Mdx } from "@/components/mdx";
 import { TagList } from "@/components/tag";
+import { TechList } from "@/components/tech";
 import { TextLink } from "@/components/button-link";
 import { SectionHeader } from "@/components/section-header";
 import { getEntries, getEntry } from "@/lib/content";
@@ -34,7 +35,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
   const entry = getEntry("projects", slug);
   if (!entry) notFound();
 
-  const { title, summary, tags, href } = entry.frontmatter;
+  const { title, summary, tags, stack, href } = entry.frontmatter;
   const others = getEntries("projects")
     .filter((item) => item.slug !== slug)
     .slice(0, 4);
@@ -49,23 +50,31 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           ← ALL PROJECTS
         </Link>
         <SectionHeader label="project" index="02" />
-        <h1 className="text-[36px] leading-[1.1] font-bold tracking-[-1px] text-ink sm:text-[44px]">
-          {title}
-        </h1>
-        {summary && (
-          <p className="max-w-[700px] text-[15px] leading-[26px] text-muted">
-            {summary}
-          </p>
-        )}
-        <TagList tags={tags} />
+        <div className="flex justify-between gap-4">
+          <div className="flex w-full flex-col gap-[20px]">
+            <h1 className="text-[36px] leading-[1.1] font-bold tracking-[-1px] text-ink sm:text-[44px]">
+              {title}
+            </h1>
+            {summary && (
+              <p className="max-w-[700px] text-[15px] leading-[26px] text-muted">
+                {summary}
+              </p>
+            )}
+            <TagList tags={tags} />
+          </div>
+          <div className="relative w-50 bg-surface-raised pt-5 px-2 pb-2 rounded-xl border border-line">
+            <span className="absolute -top-2 -left-2 text-[14px] text-muted">TECH STACK</span>
+            <TechList stack={stack} />
+          </div>
+        </div>
         {/* <div className="flex w-full flex-wrap items-center justify-between gap-[16px]">
-          <TagList tags={tags} />
-          {href && (
-            <TextLink href={href} external>
-              VISIT
-            </TextLink>
-          )}
-        </div> */}
+            <TagList tags={tags} />
+            {href && (
+              <TextLink href={href} external>
+                VISIT
+              </TextLink>
+            )}
+          </div> */}
       </div>
 
       <div className="h-px w-full bg-line" />
@@ -77,7 +86,10 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           <SectionHeader label="other projects" />
           <ul className="flex flex-col">
             {others.map((item) => (
-              <li key={item.slug} className="border-t border-line first:border-t-0">
+              <li
+                key={item.slug}
+                className="border-t border-line first:border-t-0"
+              >
                 <Link
                   href={`/project/${item.slug}`}
                   className="flex w-full items-center justify-between gap-[16px] py-[16px] transition-opacity hover:opacity-70"
