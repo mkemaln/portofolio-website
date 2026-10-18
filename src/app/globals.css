@@ -56,7 +56,18 @@
     50% { transform: translateY(-10px); }
   }
 
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+  }
+
   --animate-float: float 3000ms ease-in-out 0ms infinite normal;
+  --animate-wiggle: wiggle 1500ms ease-in-out 0ms infinite normal;
 }
 
 :root {
