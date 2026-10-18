@@ -62,19 +62,11 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             )}
             <TagList tags={tags} />
           </div>
-          <div className="relative w-50 bg-surface-raised pt-5 px-2 pb-2 rounded-xl border border-line">
-            <span className="absolute -top-2 -left-2 text-[14px] text-muted">TECH STACK</span>
+          <div className="relative w-50 bg-surface-raised pt-4 px-2 pb-2 rounded-xl border border-line">
+            <span className="absolute -top-3 left-2 text-[14px] text-muted">TECH STACK</span>
             <TechList stack={stack} />
           </div>
         </div>
-        {/* <div className="flex w-full flex-wrap items-center justify-between gap-[16px]">
-            <TagList tags={tags} />
-            {href && (
-              <TextLink href={href} external>
-                VISIT
-              </TextLink>
-            )}
-          </div> */}
       </div>
 
       <div className="h-px w-full bg-line" />

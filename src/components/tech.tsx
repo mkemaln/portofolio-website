@@ -1,15 +1,24 @@
-import { techIcons, techStyles } from "@/components/icons";
+import { techIcons } from "@/components/icons";
 
 export function TechBadge({ tech }: { tech: string }) {
   const key = tech.toLowerCase();
-  const Icon = techIcons[key];
-  const styles = techStyles[key];
+  const icon = techIcons[key];
 
   return (
     <span
-      className={`flex w-fit items-center gap-[6px] rounded-full border border-line px-[10px] py-[5px] text-[12px] tracking-[1px] whitespace-nowrap ${styles ?? "text-muted"} transition-transform hover:scale-120 hover:animate-wiggle`}
+      className={`flex w-fit items-center gap-[6px] rounded-full border border-line px-[10px] py-[5px] text-[10px] tracking-[1px] whitespace-nowrap ${icon ? "text-white" : "text-muted"} transition-transform hover:scale-120 hover:animate-wiggle`}
+      style={icon ? { backgroundColor: `#${icon.hex}` } : undefined}
     >
-      {Icon && <Icon className="h-[10px] w-[10px]" />}
+      {icon && (
+        <svg
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          aria-hidden="true"
+          className="h-[10px] w-[10px]"
+        >
+          <path d={icon.path} />
+        </svg>
+      )}
       {tech}
     </span>
   );
