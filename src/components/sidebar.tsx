@@ -7,6 +7,8 @@ import { ThemeToggle, ThemeToggleCompact } from "@/components/theme-toggle";
 import { UserIcon, MenuIcon, CloseIcon, icons } from "@/components/icons";
 import { nav, site, socials } from "@/lib/site";
 import { TextLink } from "./button-link";
+import { Tooltip } from "react-tooltip";
+import { Line } from "@rc-component/progress";
 
 function NavLink({
   href,
@@ -105,7 +107,9 @@ function SidebarBody({
                 className="flex items-center gap-[8px] text-muted transition-colors hover:text-ink"
               >
                 <Icon className="h-[16px] w-[16px]" />
-                <span className="text-[11px] tracking-[1px]">{social.label}</span>
+                <span className="text-[11px] tracking-[1px]">
+                  {social.label}
+                </span>
               </a>
             );
           })}
@@ -113,7 +117,25 @@ function SidebarBody({
 
         <span className="flex justify-between text-[10px] tracking-[1px] text-subtle">
           <div>© {year} — ALL RIGHTS RESERVED</div>
-          <a className="text-muted transition-colors hover:text-ink" href="/more">More?</a>
+          <div
+            data-tooltip-id="more1"
+            id="clickable"
+            className="text-muted transition-colors hover:text-ink"
+          >
+            More?
+          </div>
+          <Tooltip id="more1" place="top" anchorSelect="#clickable" clickable>
+            <div className="flex flex-col gap-4 w-50 text-[12px]">
+              More of me. Find it here
+              <a
+                className="text-muted transition-colors hover:text-ink"
+                href="https://more.mkemaln.my.id"
+                target="_blank"
+              >
+                more.mkemaln.my.id
+              </a>
+            </div>
+          </Tooltip>
           {/* <TextLink href="/a">More?</TextLink> */}
         </span>
       </div>
@@ -149,7 +171,10 @@ export function Sidebar({ year }: { year: number }) {
               <MenuIcon className="h-[18px] w-[18px]" />
             )}
           </button>
-          <Link href="/" className="text-[15px] font-bold tracking-[1px] text-ink">
+          <Link
+            href="/"
+            className="text-[15px] font-bold tracking-[1px] text-ink"
+          >
             {site.name}
           </Link>
         </div>
