@@ -50,7 +50,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           ← ALL PROJECTS
         </Link>
         <SectionHeader label="project" index="02" />
-        <div className="flex justify-between gap-4">
+        <div className="flex flex-col justify-between gap-10 sm:flex-row">
           <div className="flex w-full flex-col gap-[20px]">
             <h1 className="text-[36px] leading-[1.1] font-bold tracking-[-1px] text-ink sm:text-[44px]">
               {title}
@@ -62,7 +62,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             )}
             <TagList tags={tags} />
           </div>
-          <div className="relative w-50 bg-surface-raised pt-4 px-2 pb-2 rounded-xl border border-line">
+          <div className="relative w-fit sm:w-50 bg-surface-raised pt-4 px-2 pb-2 rounded-xl border border-line">
             <span className="absolute -top-3 left-2 text-[14px] text-muted">TECH STACK</span>
             <TechList stack={stack} />
           </div>
